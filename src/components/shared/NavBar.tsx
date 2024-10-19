@@ -1,4 +1,6 @@
+import Image from "next/image";
 import Link from "next/link";
+import logo from "../../../public/logo.png"
 import React from "react";
 
 const NavBar = () => {
@@ -47,26 +49,13 @@ const NavBar = () => {
                 <Link href={list.link}>{list?.title}</Link>
               </li>
             ))}
-            {/* <li>
-              <a>Item 1</a>
-            </li>
-            <li>
-              <a>Parent</a>
-              <ul className="p-2">
-                <li>
-                  <a>Submenu 1</a>
-                </li>
-                <li>
-                  <a>Submenu 2</a>
-                </li> */}
-            {/* </ul>
-            </li>
-            <li>
-              <a>Item 3</a>
-            </li> */}
           </ul>
         </div>
-        <a className="text-xl font-bold">AgriMark</a>
+
+        <Link href={"/"} className="text-xl font-bold flex items-center gap-2">
+        <Image className="rounded-full border-2 border-secondary" src={logo} width={50} height={50} alt="Logo" />
+          <span>AgriMark</span>
+        </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
