@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
+import NavBar from "../../src/components/shared/NavBar";
 import "./globals.css";
 
 const geistSans = localFont({
@@ -26,9 +27,12 @@ export default function RootLayout({
   return (
     <html lang="en" data-theme="agriMarket">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased mx-auto max-w-7xl font-poppins`}
       >
-        {children}
+        <NavBar />
+        <main className="mt-10 mb-10 min-h-[calc(100vh-432px)]">
+          {children}
+        </main>
       </body>
     </html>
   );
