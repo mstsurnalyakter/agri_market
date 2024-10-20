@@ -31,7 +31,7 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.png" sizes="any" />
       </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased mx-auto max-w-7xl font-poppins`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased mx-auto max-w-7xl font-poppins px-2`}
       >
         <NavBar />
         <main className="mt-10 mb-10 min-h-[calc(100vh-368px)]">
