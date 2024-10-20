@@ -15,7 +15,7 @@ const Footer = () => {
             height={50}
             alt="Logo"
           />
-          <span>AgriMark</span>
+          <span>AgriMarketBD</span>
         </Link>
       </aside>
       <nav>

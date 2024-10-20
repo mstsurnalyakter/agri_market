@@ -54,7 +54,7 @@ const NavBar = () => {
 
         <Link href={"/"} className="text-xl font-bold flex items-center gap-2">
         <Image className="rounded-full border-2 border-secondary" src={logo} width={50} height={50} alt="Logo" />
-          <span>AgriMark</span>
+          <span>AgriMarketBD</span>
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
