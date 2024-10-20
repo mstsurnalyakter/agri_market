@@ -19,11 +19,15 @@ const config: Config = {
     themes: [
       {
         agriMarket: {
+          ...require("daisyui/src/theming/themes")["light"],
           primary: "#28a745",
           secondary: "#004085",
-          accent: "#37cdbe",
-          neutral: "#3d4451",
-          "base-100": "#ffffff",
+          ".btn-primary":{
+            "color":"#fff"
+          },
+          ".btn-outline.btn-primary:hover":{
+            "color":"#fff"
+          }
         },
       },
       "dark",
