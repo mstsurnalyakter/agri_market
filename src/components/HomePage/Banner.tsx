@@ -33,11 +33,29 @@ const Banner = () => {
         <SwiperSlide>
           <div className="relative w-full h-[50vh] lg:h-[600px] flex flex-col items-center justify-center">
             <Image
+              src={banner8}
+              alt="Find Your Next Opportunity"
+              className="w-full h-full object-cover"
+            />
+            <div className="absolute inset-0 text-gray-200 flex flex-col items-center justify-center">
+              <h1 className="md:text-4xl text-3xl w-5/6 text-center font-extrabold">
+                Empower Your Future
+              </h1>
+              <p className="text-lg font-medium mt-6 w-5/6 mx-auto text-center">
+                Empower yourself with the tools and opportunities needed to
+                succeed in today&apos;s competitive job market.
+              </p>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="relative w-full h-[50vh] lg:h-[600px] flex flex-col items-center justify-center">
+            <Image
               src={banner1}
               alt="Find Your Next Opportunity"
               className="w-full h-full object-cover"
             />
-            <div className="absolute inset-0 text-gray-200 bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0.00)] flex flex-col items-center justify-center">
+            <div className="absolute inset-0 text-gray-200  flex flex-col items-center justify-center">
               <h1 className="md:text-4xl text-3xl w-5/6 text-center font-extrabold">
                 Unlock Your English Potential
               </h1>
@@ -56,7 +74,7 @@ const Banner = () => {
               alt="Find Your Next Opportunity"
               className="w-full h-full object-cover"
             />
-            <div className="absolute inset-0 text-gray-200 bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0.00)] flex flex-col items-center justify-center">
+            <div className="absolute inset-0 text-gray-200 flex flex-col items-center justify-center">
               <h1 className="md:text-4xl text-3xl w-5/6 text-center font-extrabold">
                 Learn English with Expert Tutors
               </h1>
@@ -75,7 +93,7 @@ const Banner = () => {
               alt="Find Your Next Opportunity"
               className="w-full h-full object-cover"
             />
-            <div className="absolute inset-0 text-gray-200 bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0.00)] flex flex-col items-center justify-center">
+            <div className="absolute inset-0 text-gray-200 flex flex-col items-center justify-center">
               <h1 className="md:text-4xl text-3xl w-5/6 text-center font-extrabold">
                 Speak English Like a Pro
               </h1>
@@ -94,7 +112,7 @@ const Banner = () => {
               alt="Find Your Next Opportunity"
               className="w-full h-full object-cover"
             />
-            <div className="absolute inset-0 text-gray-200 bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0.00)] flex flex-col items-center justify-center">
+            <div className="absolute inset-0 text-gray-200  flex flex-col items-center justify-center">
               <h1 className="md:text-4xl text-3xl w-5/6 text-center font-extrabold">
                 Engage, Learn, Succeed
               </h1>
@@ -105,6 +123,7 @@ const Banner = () => {
             </div>
           </div>
         </SwiperSlide>
+
         <SwiperSlide>
           <div className="relative w-full h-[50vh] lg:h-[600px] flex flex-col items-center justify-center">
             <Image
@@ -112,7 +131,7 @@ const Banner = () => {
               alt="Find Your Next Opportunity"
               className="w-full h-full object-cover"
             />
-            <div className="absolute inset-0 text-gray-200 bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0.00)] flex flex-col items-center justify-center">
+            <div className="absolute inset-0 text-gray-200 flex flex-col items-center justify-center">
               <h1 className="md:text-4xl text-3xl w-5/6 text-center font-extrabold">
                 Empower Your Future
               </h1>
@@ -123,24 +142,7 @@ const Banner = () => {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
-          <div className="relative w-full h-[50vh] lg:h-[600px] flex flex-col items-center justify-center">
-            <Image
-              src={banner7}
-              alt="Find Your Next Opportunity"
-              className="w-full h-full object-cover"
-            />
-            <div className="absolute inset-0 text-gray-200 bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0.00)] flex flex-col items-center justify-center">
-              <h1 className="md:text-4xl text-3xl w-5/6 text-center font-extrabold">
-                Empower Your Future
-              </h1>
-              <p className="text-lg font-medium mt-6 w-5/6 mx-auto text-center">
-                Empower yourself with the tools and opportunities needed to
-                succeed in today&apos;s competitive job market.
-              </p>
-            </div>
-          </div>
-        </SwiperSlide>
+
         <SwiperSlide>
           <div className="relative w-full h-[50vh] lg:h-[600px] flex flex-col items-center justify-center">
             <Image
@@ -148,7 +150,7 @@ const Banner = () => {
               alt="Find Your Next Opportunity"
               className="w-full h-full object-cover"
             />
-            <div className="absolute inset-0 text-gray-200 bg-gradient-to-r from-[#151515] to-[rgba{21, 21, 21, 0.00)] flex flex-col items-center justify-center">
+            <div className="absolute inset-0 text-gray-200 flex flex-col items-center justify-center">
               <h1 className="md:text-4xl text-3xl w-5/6 text-center font-extrabold">
                 Empower Your Communication Skills
               </h1>
@@ -162,11 +164,11 @@ const Banner = () => {
         <SwiperSlide>
           <div className="relative w-full h-[50vh] lg:h-[600px] flex flex-col items-center justify-center">
             <Image
-              src={banner8}
+              src={banner7}
               alt="Find Your Next Opportunity"
               className="w-full h-full object-cover"
             />
-            <div className="absolute inset-0 text-gray-200 bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0.00)] flex flex-col items-center justify-center">
+            <div className="absolute inset-0 text-gray-200 flex flex-col items-center justify-center">
               <h1 className="md:text-4xl text-3xl w-5/6 text-center font-extrabold">
                 Empower Your Future
               </h1>
