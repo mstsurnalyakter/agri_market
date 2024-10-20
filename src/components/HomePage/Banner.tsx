@@ -39,11 +39,11 @@ const Banner = () => {
             />
             <div className="absolute inset-0 text-gray-200 flex flex-col items-center justify-center">
               <h1 className="md:text-4xl text-3xl w-5/6 text-center font-extrabold">
-                Empower Your Future
+                Empowering Farmers, Connecting Businesses
               </h1>
               <p className="text-lg font-medium mt-6 w-5/6 mx-auto text-center">
-                Empower yourself with the tools and opportunities needed to
-                succeed in today&apos;s competitive job market.
+                A platform where farmers can easily sell their products, and
+                businesses can find quality goods directly from the source.
               </p>
             </div>
           </div>
@@ -57,11 +57,11 @@ const Banner = () => {
             />
             <div className="absolute inset-0 text-gray-200  flex flex-col items-center justify-center">
               <h1 className="md:text-4xl text-3xl w-5/6 text-center font-extrabold">
-                Unlock Your English Potential
+                From Farm to Your Business
               </h1>
               <p className="text-lg mt-3 font-medium w-5/6 mx-auto text-center">
-                Join our platform and master English with expert guidance and
-                interactive learning tools.
+                Simplifying the process for farmers to reach businesses and
+                ensuring high-quality products for your needs.
               </p>
             </div>
           </div>
@@ -76,11 +76,11 @@ const Banner = () => {
             />
             <div className="absolute inset-0 text-gray-200 flex flex-col items-center justify-center">
               <h1 className="md:text-4xl text-3xl w-5/6 text-center font-extrabold">
-                Learn English with Expert Tutors
+                Fresh Produce, Direct from the Farm
               </h1>
               <p className="text-lg font-medium mt-6 w-5/6 mx-auto text-center">
-                Connect with certified tutors who will guide you on your journey
-                to fluency.
+                Buy directly from farmers, ensuring fresh, high-quality products
+                for your business.
               </p>
             </div>
           </div>
@@ -95,11 +95,11 @@ const Banner = () => {
             />
             <div className="absolute inset-0 text-gray-200 flex flex-col items-center justify-center">
               <h1 className="md:text-4xl text-3xl w-5/6 text-center font-extrabold">
-                Speak English Like a Pro
+                Bridging the Gap Between Farmers and Buyers
               </h1>
               <p className="text-lg font-medium mt-6 w-5/6 mx-auto text-center">
-                Develop the skills to speak English fluently and professionally
-                in any situation.
+                A dedicated platform to bring together farmers and business
+                buyers for seamless transactions.
               </p>
             </div>
           </div>
@@ -114,11 +114,11 @@ const Banner = () => {
             />
             <div className="absolute inset-0 text-gray-200  flex flex-col items-center justify-center">
               <h1 className="md:text-4xl text-3xl w-5/6 text-center font-extrabold">
-                Engage, Learn, Succeed
+                Support Local Farmers, Grow Your Business
               </h1>
               <p className="text-lg font-medium mt-6 w-5/6 mx-auto text-center">
-                Engage with our resources, learn effectively, and succeed in
-                mastering English.
+                Help farmers sell their products easily while securing premium
+                products for your business.
               </p>
             </div>
           </div>
@@ -133,11 +133,11 @@ const Banner = () => {
             />
             <div className="absolute inset-0 text-gray-200 flex flex-col items-center justify-center">
               <h1 className="md:text-4xl text-3xl w-5/6 text-center font-extrabold">
-                Empower Your Future
+                Quality Products, Straight from the Source
               </h1>
               <p className="text-lg font-medium mt-6 w-5/6 mx-auto text-center">
-                Empower yourself with the tools and opportunities needed to
-                succeed in today&apos;s competitive job market.
+                Access farm-fresh products directly from trusted farmers,
+                supporting local agriculture.
               </p>
             </div>
           </div>
@@ -152,11 +152,11 @@ const Banner = () => {
             />
             <div className="absolute inset-0 text-gray-200 flex flex-col items-center justify-center">
               <h1 className="md:text-4xl text-3xl w-5/6 text-center font-extrabold">
-                Empower Your Communication Skills
+                Simplifying Farm-to-Business Trade
               </h1>
               <p className="text-lg font-medium mt-6 w-5/6 mx-auto text-center">
-                Enhance your ability to communicate effectively with our
-                targeted language programs
+                Our platform makes it easy for farmers to sell and businesses to
+                buy, fostering a strong agricultural market.
               </p>
             </div>
           </div>
@@ -170,11 +170,11 @@ const Banner = () => {
             />
             <div className="absolute inset-0 text-gray-200 flex flex-col items-center justify-center">
               <h1 className="md:text-4xl text-3xl w-5/6 text-center font-extrabold">
-                Empower Your Future
+                Quality Products, Straight from the Source
               </h1>
               <p className="text-lg font-medium mt-6 w-5/6 mx-auto text-center">
-                Empower yourself with the tools and opportunities needed to
-                succeed in today&apos;s competitive job market.
+                Access farm-fresh products directly from trusted farmers,
+                supporting local agriculture.
               </p>
             </div>
           </div>
