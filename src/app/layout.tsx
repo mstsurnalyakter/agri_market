@@ -1,8 +1,8 @@
+
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-import NavBar from "@/components/shared/NavBar";
-import Footer from "@/components/shared/Footer";
+
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -25,19 +25,16 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
   return (
     <html lang="en" data-theme="agriMarket">
       <head>
         <link rel="icon" href="/favicon.png" sizes="any" />
       </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased mx-auto max-w-7xl font-poppins px-2`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased `}
       >
-        <NavBar />
-        <main className="mt-10 mb-10 min-h-[calc(100vh-368px)]">
           {children}
-        </main>
-        <Footer />
       </body>
     </html>
   );
