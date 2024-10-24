@@ -1,9 +1,12 @@
 
+import ProductsPage from '@/components/ProductsPage/ProductsPage'
 import React from 'react'
 
 const DashboardPage = () => {
   return (
-    <div>DashboardPage</div>
+    <main>
+      <ProductsPage/>
+    </main>
   )
 }
 
