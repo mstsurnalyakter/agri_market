@@ -4,11 +4,11 @@ import React from 'react'
 const AdminNavLink = () => {
   return (
     <>
-      <List label="Farmers" address="/dashboard/farmers" />
-      <List label="Business" address="/dashboard/business" />
-      <List label="Products" address="/dashboard/products" />
-      <List label="Payment" address="/dashboard/payments" />
-      <List label="Reports" address="/dashboard/reports" />
+      <List label="Farmers" address="/dashboard/admin/farmers" />
+      <List label="Business" address="/dashboard/admin/business" />
+      <List label="Products" address="/dashboard/admin/products" />
+      <List label="Payment" address="/dashboard/admin/payment" />
+      <List label="Reports" address="/dashboard/admin/reports" />
     </>
   );
 }

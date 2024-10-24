@@ -4,9 +4,12 @@ import React from 'react'
 const FarmerInfoNavLink = () => {
   return (
     <>
-      <List label="Farmers Information" address="/dashboard/farmers/farmer-information" />
-      <List label="Add Farmer" address="/dashboard/farmers/add-farmer" />
-      <List label="Support" address="/dashboard/farmers/support" />
+      <List
+        label="Farmers Information"
+        address="/dashboard/admin/farmers/farmer-information"
+      />
+      <List label="Add Farmer" address="/dashboard/admin/farmers/add-farmer" />
+      <List label="Support" address="/dashboard/admin/farmers/support" />
     </>
   );
 }
