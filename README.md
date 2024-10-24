@@ -14,7 +14,7 @@ Make sure you have the following installed:
 
     a. Clone
     ```sh
-    https://github.com/mstsurnalyakter/agri_market
+     git clone https://github.com/mstsurnalyakter/agri_market
     cd agri_market
     ```
 
