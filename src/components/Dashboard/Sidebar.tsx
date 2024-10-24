@@ -18,14 +18,15 @@ import { Collapse, IconButton } from "@material-tailwind/react";
 // import toast from "react-hot-toast";
 import Link from "next/link";
 import Image from "next/image";
-import NavLinks from "./farmer/NavLinks";
+import NavLinks from "./Farmer/NavLinks";
 import List from "../shared/List";
+import BusinessNavLink from "./Business/BusinessNavLink";
 
 export const SideBarItem = () => {
 //   const { user, logOut } = useAuth();
 
 //   const { role, isLoading } = useRole();
-const role = "farmer";
+const role = "business";
 //   const handleLogOut = async () => {
 //     try {
 //       await logOut();
@@ -59,15 +60,17 @@ const role = "farmer";
         {/*  */}
         <div className="flex-1">
           <ul className="pt-2 pb-4 space-y-1 text-sm">
-            <List label="Home" address="/" icon={FaHome} />
+            <List label="Home" address="/" />
             <List
-              label="View All Materials"
+              label="View All Products"
               address="/dashboard"
-              icon={FaBookOpen}
+              // icon={FaBookOpen}
+              // icon={""}
             />
 
-            {role === "farmer" && <NavLinks />}
-            {/* {role === "businessOwner" && <TutorNavLinks />}
+            {/* {role === "farmer" && <NavLinks />} */}
+            {role === "business" && <BusinessNavLink />}
+            {/*
             {role === "admin" && <AdminNavLinks />} */}
           </ul>
         </div>

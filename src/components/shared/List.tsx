@@ -7,10 +7,9 @@ import React from "react";
 interface ListProps {
   label: string;
   address: string;
-  icon: React.ComponentType; // This ensures `Icon` is a valid React component
 }
 
-const List: React.FC<ListProps> = ({ label, address, icon: Icon }) => {
+const List: React.FC<ListProps> = ({ label, address }) => {
     const pathName = usePathname();
   return (
     <li className="rounded-sm">
@@ -21,7 +20,7 @@ const List: React.FC<ListProps> = ({ label, address, icon: Icon }) => {
           }`
         }
       >
-        <Icon />
+        {/* <Icon /> */}
         <span>{label}</span>
       </Link>
     </li>
