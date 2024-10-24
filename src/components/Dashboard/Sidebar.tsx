@@ -21,12 +21,13 @@ import Image from "next/image";
 import NavLinks from "./Farmer/NavLinks";
 import List from "../shared/List";
 import BusinessNavLink from "./Business/BusinessNavLink";
+import AdminNavLink from "./Admin/AdminNavLink";
 
 export const SideBarItem = () => {
 //   const { user, logOut } = useAuth();
 
 //   const { role, isLoading } = useRole();
-const role = "business";
+const role = "admin";
 //   const handleLogOut = async () => {
 //     try {
 //       await logOut();
@@ -69,7 +70,8 @@ const role = "business";
             />
 
             {/* {role === "farmer" && <NavLinks />} */}
-            {role === "business" && <BusinessNavLink />}
+            {/* {role === "business" && <BusinessNavLink />} */}
+            {role === "admin" && <AdminNavLink />}
             {/*
             {role === "admin" && <AdminNavLinks />} */}
           </ul>
