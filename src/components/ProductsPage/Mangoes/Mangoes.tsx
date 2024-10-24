@@ -1,8 +1,8 @@
+import Footer from '@/components/shared/Footer';
+import NavBar from '@/components/shared/NavBar';
 import React from 'react'
-import NavBar from '../shared/NavBar';
-import Footer from '../shared/Footer';
 
-const ProductsPage = () => {
+const Mangoes = () => {
   return (
     <div className="space-y-11">
       <NavBar />
@@ -17,4 +17,4 @@ const ProductsPage = () => {
   );
 }
 
-export default ProductsPage
+export default Mangoes
