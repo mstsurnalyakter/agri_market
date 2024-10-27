@@ -1,6 +1,7 @@
 "use client"
 
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 interface CategoryProps {
@@ -25,13 +26,15 @@ const Category: React.FC<CategoryProps> = ({ category }) => {
           height={100}
         />
       </figure>
-      <h2 className="bg-primary text-center py-8 text-white font-bold text-3xl">
+      <h2 className="bg-primary text-center capitalize py-8 text-white font-bold text-3xl">
         {product_name}
       </h2>
       <div className="card-body">
         <div className="card-actions justify-center">
           {/* <button className="btn-outline btn-">Buy Now</button> */}
-          <button className="btn btn-outline btn-primary">Learn More</button>
+          <Link href={`/products/${product_name}`}>
+            <button className="btn btn-outline btn-primary">Learn More</button>
+          </Link>
         </div>
       </div>
     </div>
