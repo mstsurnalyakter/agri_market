@@ -1,7 +1,11 @@
 "use client"
-import React from 'react'
+import React, { ReactNode } from 'react'
 
-const AuthProvider = ({children}) => {
+interface AuthProviderProps{
+    children:ReactNode
+}
+
+const AuthProvider:React.FC<AuthProviderProps> = ({children}) => {
   return (
     <div>
         {children}

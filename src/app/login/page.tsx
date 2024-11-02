@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useForm, SubmitHandler, FieldValues } from "react-hook-form";
 import { LuEye, LuEyeOff } from "react-icons/lu";
 import logo from "../../../public/logo.png";
@@ -23,6 +23,20 @@ const LoginPage: React.FC = () => {
     handleSubmit,
     formState: { errors },
   } = useForm<FormValues>();
+
+  useEffect(() => {
+     if (errors.email) {
+      toast.error(errors.email.message || "");
+    }else if (errors.password) {
+      toast.error(errors.password.message || "");
+    }
+  }, [
+    errors.name,
+    errors.email,
+    errors.photo,
+    errors.termsConditions,
+    errors.password,
+  ]);
 
   const onSubmit: SubmitHandler<FormValues> = async (data) => {
     const { name, email, photo, password } = data;

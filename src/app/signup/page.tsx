@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useForm, SubmitHandler, FieldValues } from "react-hook-form";
 import { LuEye, LuEyeOff } from "react-icons/lu";
 import logo from "../../../public/logo.png";
@@ -24,9 +24,31 @@ const SignUpPage: React.FC = () => {
     formState: { errors },
   } = useForm<FormValues>();
 
+
+  useEffect(() => {
+    if (errors.name) {
+      toast.error(errors.name.message || "");
+    } else if (errors.email) {
+      toast.error(errors.email.message || "");
+    } else if (errors.photo) {
+      toast.error(errors.photo.message || "");
+    } else if (errors.password) {
+      toast.error(errors.password.message || "");
+    } else if (errors.termsConditions) {
+      toast.error(errors.termsConditions.message || "");
+    }
+  }, [
+    errors.name,
+    errors.email,
+    errors.photo,
+    errors.termsConditions,
+    errors.password,
+  ]);
+
   const onSubmit: SubmitHandler<FormValues> = async (data) => {
     const { name, email, photo, password } = data;
     console.log(name, email, photo, password);
+    console.log(data);
 
     // Code for user creation and handling can go here
   };

@@ -22,7 +22,7 @@ const NavBar = () => {
   ]
 
   return (
-    <nav className="bg-primary">
+    <nav className="bg-primary sticky top-0 z-50">
       <div className="navbar  px-2 text-gray-200  mx-auto max-w-7xl font-poppins">
         <div className="navbar-start">
           <div className="dropdown">
@@ -75,29 +75,15 @@ const NavBar = () => {
                 <Link href={list.link}>{list?.title}</Link>
               </li>
             ))}
-            {/* <li>
-            <a>Item 1</a>
-          </li>
-          <li>
-            <details>
-              <summary>Parent</summary>
-              <ul className="p-2 bg-primary">
-                <li>
-                  <a>Submenu 1</a>
-                </li>
-                <li>
-                  <a>Submenu 2</a>
-                </li>
-              </ul>
-            </details>
-          </li>
-          <li>
-            <a>Item 3</a>
-          </li> */}
           </ul>
         </div>
         <div className="navbar-end">
-          {/* <a className="btn">Button</a> */}
+          <Link
+            href={"/login"}
+            className="btn btn-outline btn-primary bg-white"
+          >
+            Login
+          </Link>
           <div className="dropdown dropdown-end">
             <div
               tabIndex={0}
