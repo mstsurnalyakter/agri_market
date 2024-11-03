@@ -1,4 +1,5 @@
 import { connectDB } from "@/lib/connectDB";
+import bcrypt  from "bcrypt";
 
 interface User{
     name:string,
@@ -21,7 +22,8 @@ export const POST = async (request:Request) =>{
                 {status:304}
             );
         }
-        const resp= await userCollection?.insertOne(newUser);
+        const hashPassword = bcrypt.hashSync(newUser.password, 14);
+        const resp= await userCollection?.insertOne({...newUser,password:hashPassword});
         return Response.json(
             {message:"Sign Up Successful"},
             {status:200}
@@ -34,3 +36,4 @@ export const POST = async (request:Request) =>{
     }
 
 }
+// 80-8
